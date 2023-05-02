@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ws0502" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin" target="11" />
+      <module name="clone0420" target="11" />
+      <module name="clone0425" target="11" />
+      <module name="web03" target="11" />
+      <module name="web04" target="11" />
+      <module name="ws0420" target="11" />
+      <module name="ws0425" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
+      <module name="clone0420" options="-parameters" />
+      <module name="clone0425" options="-parameters" />
+      <module name="web03" options="-parameters" />
+      <module name="web04" options="-parameters" />
+      <module name="ws0420" options="-parameters" />
+      <module name="ws0425" options="-parameters" />
+      <module name="ws0502" options="-parameters" />
+    </option>
+  </component>
+</project>
